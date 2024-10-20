@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "experimentalDecorators": true,
+      "target": "ES2021",
+      "module": "ESNext",
+      "moduleResolution": "node",
+      "declaration": true,
+      "strict": true,
+      "incremental": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "rootDir": "./src",
+      "outDir": "./dist",
+      "composite": true,
+      "resolveJsonModule": true
+    },
+    "exclude": ["./node_modules"],
+    "typeRoots": ["./node_module/@types", "./src/types"],
+    "ts-node": {
+      "esm": true,
+      "experimentalSpecifierResolution": "node"
+    }
+  }
+  
