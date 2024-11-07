@@ -11,8 +11,8 @@ app.get("/", (req, res) => {
   res.send("Up and running");
 });
 
-app.get("/totalsupply", totalSupply)
-app.get("/circulatingsupply", circulatingSupply)
+app.get("/nvl-totalsupply", totalSupply)
+app.get("/nvl-circulatingsupply", circulatingSupply)
 
 app.listen(PORT, () => {
   console.log("Server is running");
